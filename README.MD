@@ -3,6 +3,10 @@
 ```python
 
 # Download ProcDump: https://learn.microsoft.com/pt-br/sysinternals/downloads/procdump
+# I had to make some changes to winappdbg
+# If you get an Exception, download https://github.com/hansalemaos/a_pandas_ex_memorydump_to_df/blob/main/winappdbg.zip
+# and overwrite all files in Lib\site-packages\winappdbg
+
 $pip install a-pandas-ex-memorydump-to-df
 
 import pandas as pd
